@@ -1,5 +1,6 @@
 1) Sentiment Analysis
-This tool performs sentiment analysis using the `TextBlob` and `nltk` libraries. The user inputs text, and the `TextBlob` library calculates the sentiment polarity, categorizing it as positive, negative, or neutral. `nltk` is used to handle text tokenization, while `TextBlob` simplifies sentiment analysis.
+This project involved building a model to classify customer reviews into positive, negative, or neutral categories. I utilized Natural Language Processing (NLP) techniques along with NLTK, TextBlob to process and analyze the text data. This tool helps in identifying sentiments of people in the social media posts, reaction to movie trailers, making it better to analyze customer feedback.
 
-2) Handwritten Digits Recognition
+3) Handwritten Digits Recognition
+In this project, I developed a neural network model to accurately classify handwritten digits (0-9) from the MNIST dataset. Using Convolutional Neural Networks (CNNs) in TensorFlow and Keras, I achieved high accuracy in recognizing digits. This project is focused on computer vision and image processing.
 The first code (train_digit_recognizer.py) trains a CNN model on the MNIST dataset and saves the trained model as mnist.h5. The second code (gui_digit_recognizer.py) loads the saved model (mnist.h5) and provides a GUI created using Tkinter libary where users can draw digits, which the model then predicts.
